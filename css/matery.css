@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, hsl(192, 100%, 50%) 0%, #0087a9 100%);
 }
 
 .text-color {
@@ -551,8 +551,6 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
 }
 
 .bg-cover:before,
@@ -569,7 +567,7 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #fff;
+    color: rgb(0, 0, 0);
     z-index: 2;
 }
 
@@ -584,7 +582,7 @@ header .go-back i {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: rgb(0, 0, 0);
 }
 
 .bg-cover .post-title {
