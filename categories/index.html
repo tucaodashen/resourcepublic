@@ -341,24 +341,7 @@
 
             <div class="description center-align">
                 
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
+                    
                 
             </div>
         </div>
@@ -394,6 +377,15 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #F9EBEA;">公告
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%8F%91%E5%B8%83%E9%A1%B5/" title="发布页: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">发布页
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -441,7 +433,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"公告","max":2}],
+            indicator: [{"name":"公告","max":2},{"name":"发布页","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -452,7 +444,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1],
+                    value : [1,1],
                     name : '文章分类数量'
                 }
             ]
